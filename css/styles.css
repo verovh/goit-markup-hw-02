@@ -1,0 +1,182 @@
+:root{
+    --text-color:#212121;
+    --background-banner:#2F303A;
+    --highlighting-color:#2196F3;
+    --background-color:#E5E5E5;
+    --descriptive-text:#757575;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+/* GENERAL STYLES */
+
+.button-cursor{
+    cursor:pointer;
+}
+
+.list-style-none li{
+    list-style: none;
+}
+
+/* HEADER */
+
+.logo-link{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--highlighting-color);    
+    text-decoration: none;
+}
+
+.toplinks a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.toplinks a:link{
+    color: var(--text-color);
+}
+
+.toplinks a:hover{
+    color: var(--highlighting-color);
+}
+
+.toplinks a:active{
+    color: var(--highlighting-color);
+}
+
+.address-links a{
+    text-decoration: none;
+    color: var(--descriptive-text);
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.address-links a:hover{
+    color: var(--highlighting-color);
+}
+
+.address-links a:active{
+    color: var(--highlighting-color);
+}
+
+.banner-top-title {
+    background-color: var(--background-banner);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.banner-top-button {
+    background-color: var(--highlighting-color);
+    color: white;
+    border-style: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* MAIN */
+
+.main-titles{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* --- howwedoit */
+
+.howwedoit-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.descriptive-text{
+    color: var(--descriptive-text);
+}
+
+/* --- whatwedo */
+
+.whatwedo-img li{
+    width: 370px;
+    height: 294px;
+}
+
+/*  --- whoweare */
+
+.whoweare{
+    background: #F5F4FA;
+}
+
+.whoweare-img{
+    width: 270px;
+    height: 260px;
+}
+
+.whoweare-names{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+}
+
+.whoweare-career{
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--descriptive-text);
+}
+
+/* FOOTER */
+
+.banner-footer {
+    background-color: var(--background-banner);
+    color: white;
+}
+
+/* ----------- */
+/* PORTFOLIO */
+
+.portfolio-button button{
+    background-color: white;
+    border-style: none;
+    cursor: pointer;
+}
+
+.portfolio-button button:hover{
+    background-color: var(--highlighting-color);
+    color: white;
+}
+
+.portfolio-button button:active{
+    color: var(--highlighting-color);
+}

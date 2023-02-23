@@ -1,139 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- NORMALIZER -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>Web Studio Project</title>
-</head>
+  </head>
 
-
-<body>
+  <body class="list-style-none">
     <header>
-        <!-- Banner superior navegacion -->
-        <section class="topmenu">
-            <a href="https://verovh.github.io/goit-markup-hw-01/"> <strong>WebStudio</strong> </a>
-            
-            <nav>                
-                <ul>
-                  <li><a href="/estudio">Estudio</a></li>
-                  <li><a href="/portafolio">Portafolio</a></li>
-                  <li><a href="/contactos">Contactos</a></li>
-                </ul>
-            </nav>
+      <!-- Banner superior navegacion -->
+      <section class="topmenu">
+        <a href="https://verovh.github.io/goit-markup-hw-02/" class="logo-link"
+          >WebStudio</a
+        >
 
-            <a href="Tel:525555296000">+52 55 5529 6000</a>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </section>
-        
+        <nav class="text-basic-color">
+          <ul class="toplinks">
+            <li><a href="/index.html" target="_self">Studio</a></li>
+            <li><a href="/portfolio.html" target="_self">Portfolio</a></li>
+            <li><a href="/contacts">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <span class="address-links">
+          <a href="Tel:+380961111111">+38 096 111 11 11</a>
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a></span
+        >
+      </section>
     </header>
-    
+
     <main>
-        <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-    
-        <button type="button">Solicite nuestro servicio</button>
+      <section class="banner-top-title">
+        <h1>
+          EFFECTIVE SOLUTIONS FOR <br />
+          YOUR BUSINESS
+        </h1>
+        <button type="button" class="banner-top-button button-cursor">
+          Request our service
+        </button>
+      </section>
 
-        <!-- Sección como lo hacemos (solo textos descriptions)-->
-        <section class="howwedoit">
+      <!-- SECTION HOW WE DO IT (titles and descriptions)-->
+      <section class="howwedoit">
+        <ul>
+          <li>
+            <span class="howwedoit-title">ATTENTION TO DETAILS</span>
             <ul>
-                <li>
-                    ATENCIÓN A LOS DETALLES
-                    <ul>
-                        <li>Nos adentramos en todos #1 los detalles y procesos de su negocio, para así desarrollar una solución a su medida.</li>
-                    </ul>
-                </li>
-                <li>
-                    PUNTUALIDAD
-                    <ul>
-                        <li>
-                            Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su tiempo y respetar los plazos acordados.
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    PLANIFICACIÓN
-                    <ul>
-                        <li>
-                            Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones.
-                        </li>
-                    </ul>                    
-                </li>
-                <li>
-                    TEGNOLOGÍA MODERNA
-                    <ul>
-                        <li>
-                            Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos laborales.
-                        </li>
-                    </ul>
-                </li>
+              <li>
+                <p class="descriptive-text">
+                  We go into all the details and processes of your business to
+                  develop a customized solution.
+                </p>
+              </li>
             </ul>
-        </section>
+          </li>
+          <li>
+            <span class="howwedoit-title">PUNCTUALITY</span>
+            <ul>
+              <li>
+                <p class="descriptive-text">
+                  With us, you can feel safe and secure. An important principle
+                  of the company: respect your time and respect the agreed
+                  deadlines.
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="howwedoit-title">PLANNING</span>
+            <ul>
+              <li>
+                <p class="descriptive-text">
+                  You will be able to observe and participate in every phase of
+                  solution development and implementation.
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="howwedoit-title">MODERN TECHNOLOGIES</span>
+            <ul>
+              <li>
+                <p class="descriptive-text">
+                  We use innovative tools to solve assigned tasks. It's time to
+                  simplify work processes.
+                </p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
 
-        <!-- Sección qué hacemos (tutilo ppal y fotos) -->
-        <section class="whatwedo">
-            <h2>A qué nos dedicamos</h2>
+      <!-- SECTION WHAT WE DO (Only images) -->
+      <section class="whatwedo">
+        <h2 class="main-titles">What we do</h2>
 
-            <ul>
-                <li><img src="images/whatwedo1.jpg" alt="Escribiendo código" width="373" height="324"></li>
-                <li><img src="images/whatwedo2.jpg" alt="Diseñando interfaz" width="373" height="324"></li>
-                <li><img src="images/whatwedo3.jpg" alt="Eligiendo colores" width="373" height="324"></li>
-            </ul>
-        </section>
-        
-        <!-- Sección quienes somos (fotos con captions) -->
-        <section class="whoweare">
-            <h2>Nuestro equipo</h2>
-            <ul>
-                <li>
-                    <figure>
-                        <img src="images/whoweare1.jpg" alt="Andrés Cubo" width="270" height="260">
-                        <figcaption>
-                            <b>Andrés Cubo</b><br>
-                            Diseñador de Productos
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="images/whoweare2.jpg" alt="Carla Palacios" width="270" height="260">
-                        <figcaption>
-                            <b>Carla Palacios</b><br>
-                            Desarrolladora Frontend
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="images/whoweare3.jpg" alt="Mario Dorado" width="270" height="260">
-                        <figcaption>
-                            <b>Mario Dorado</b><br>
-                            Marketing
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="images/whoweare4.jpg" alt="" width="270" height="260">
-                        <figcaption>
-                            <b>Pablo Mijangos</b><br>
-                            Diseñador IU
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </section>
+        <ul class="whatwedo-img">
+          <li>
+            <img src="images/whatwedo1.jpg" alt="Writting code" />
+          </li>
+          <li>
+            <img src="images/whatwedo2.jpg" alt="Designing interface" />
+          </li>
+          <li>
+            <img src="images/whatwedo3.jpg" alt="Choosing colors" />
+          </li>
+        </ul>
+      </section>
+
+      <!-- Sección quienes somos (fotos con captions) -->
+      <section class="whoweare">
+        <h2 class="main-titles">Our Team</h2>
+        <ul>
+          <li>
+            <figure>
+              <img
+                src="images/whoweare1.jpg"
+                alt="Christopher Walker"
+                class="whoweare-img"
+              />
+              <figcaption>
+                <p class="whoweare-names">Christopher Walker</p>
+                <p class="whoweare-career">Product Designer</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="images/whoweare2.jpg"
+                alt="Kylie Evans"
+                class="whoweare-img"
+              />
+              <figcaption>
+                <p class="whoweare-names">Kylie Evans</p>
+                <p class="whoweare-career">Frontend Developer</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="images/whoweare3.jpg"
+                alt="Ryan Harris"
+                class="whoweare-img"
+              />
+              <figcaption>
+                <p class="whoweare-names">Ryan Harris</p>
+                <p class="whoweare-career">Marketing</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="images/whoweare4.jpg"
+                alt="Tyler Moore"
+                class="whoweare-img"
+              />
+              <figcaption>
+                <p class="whoweare-names">Tyler Moore</p>
+                <p class="whoweare-career">UI Designer</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer>
-
-        <a href="https://verovh.github.io/goit-markup-hw-01/"> <strong>WebStudio</strong>
+      <section class="banner-footer">
+        <a href="https://verovh.github.io/goit-markup-hw-02/" class="logo-link"
+          >WebStudio</a
+        >
         <address>
-            <span>Calz. Ticomán 500, Ciudad de <br> </span>   
-            <span>México, CDMX, México <br> </span>
-            <span><a href="mailto:info@example.com">info@example.com</a> <br> </span> 
-            <span><a href="tel:525555296000">+52 55 5529 6000</a></span>
+          <p>695 Park Ave, New York, NY 10065,</p>
+          <p>United States</p>
+          <span class="address-links">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <br />
+            <a href="tel:+12127724150">+1 212-772-4150</a>
+          </span>
         </address>
-
+      </section>
     </footer>
-</body>
+  </body>
 </html>
