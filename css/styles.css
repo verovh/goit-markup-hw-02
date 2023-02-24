@@ -59,11 +59,16 @@ body{
     color: var(--highlighting-color);
 }
 
-.toplinks a:active{
+
+.toplinks-current a:link{
     color: var(--highlighting-color);
 }
 
-.toplinks-current a:link a:visited{
+.toplinks-current a:visited{
+    color: var(--highlighting-color);
+}
+
+.toplinks-current a:active{
     color: var(--highlighting-color);
 }
 
@@ -71,10 +76,17 @@ body{
 
 .address-links a{
     text-decoration: none;
-    color: var(--descriptive-text);
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.02em;
+}
+
+.address-links a:link{
+    color: var(--descriptive-text);
+}
+
+.address-links a:focus{
+    color: var(--highlighting-color);
 }
 
 .address-links a:hover{
