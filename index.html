@@ -23,12 +23,12 @@
     <title>Web Studio Project</title>
   </head>
 
-  <body class="list-style-none">
+  <body class="list-style-none container">
     <header class="topmenu">
       <!-- Banner superior navegacion -->
       <a href="#" class="logo-link">WebStudio</a>
 
-      <nav class="text-basic-color">
+      <nav class="text-basic-color toplinks-container">
         <ul class="toplinks">
           <li class="toplinks-current">
             <a href="#" target="_self">Studio</a>
@@ -38,43 +38,43 @@
         </ul>
       </nav>
 
-      <ul class="address-links">
-        <li><a href="Tel:+380961111111">+38 096 111 11 11</a></li>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      <ul class="address-toplinks">
+        <li class="address-links "><a href="Tel:+380961111111">+38 096 111 11 11</a></li>
+        <li class="address-links "><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
       </ul>
     </header>
 
     <main>
       <section class="banner-top-title banner-top-button">
-        <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <button type="button" class="button-cursor">Request our service</button>
+        <h1 class="banner-item">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+        <button type="button" class="button-cursor banner-button">Request our service</button>
       </section>
 
       <!-- SECTION HOW WE DO IT (titles and descriptions)-->
       <section class="howwedoit">
-        <ul>
-          <li>
+        <ul class="howwedoit-items-container">
+          <li class="howwedoit-items">
             <h3 class="howwedoit-title">ATTENTION TO DETAILS</h3>
             <p class="descriptive-text">
               We go into all the details and processes of your business to
               develop a customized solution.
             </p>
           </li>
-          <li>
+          <li class="howwedoit-items">
             <h3 class="howwedoit-title">PUNCTUALITY</h3>
             <p class="descriptive-text">
               With us, you can feel safe and secure. An important principle of
               the company: respect your time and respect the agreed deadlines.
             </p>
           </li>
-          <li>
+          <li class="howwedoit-items">
             <h3 class="howwedoit-title">PLANNING</h3>
             <p class="descriptive-text">
               You will be able to observe and participate in every phase of
               solution development and implementation.
             </p>
           </li>
-          <li>
+          <li class="howwedoit-items">
             <h3 class="howwedoit-title">MODERN TECHNOLOGIES</h3>
             <p class="descriptive-text">
               We use innovative tools to solve assigned tasks. It's time to
@@ -104,8 +104,8 @@
       <!-- Sección quienes somos (fotos con captions) -->
       <section class="whoweare">
         <h2 class="main-titles">Our Team</h2>
-        <ul>
-          <li>
+        <ul class="whoweare-img-container">
+          <li class="whoweare-img-card">
             <img
               src="images/whoweare1.jpg"
               alt="Christopher Walker"
@@ -114,7 +114,7 @@
             <h3 class="whoweare-names">Christopher Walker</h3>
             <p class="whoweare-career">Product Designer</p>
           </li>
-          <li>
+          <li class="whoweare-img-card">
             <img
               src="images/whoweare2.jpg"
               alt="Kylie Evans"
@@ -123,7 +123,7 @@
             <h3 class="whoweare-names">Kylie Evans</h3>
             <p class="whoweare-career">Frontend Developer</p>
           </li>
-          <li>
+          <li class="whoweare-img-card">
             <img
               src="images/whoweare3.jpg"
               alt="Ryan Harris"
@@ -132,7 +132,7 @@
             <h3 class="whoweare-names">Ryan Harris</h3>
             <p class="whoweare-career">Marketing</p>
           </li>
-          <li>
+          <li class="whoweare-img-card">
             <img
               src="images/whoweare4.jpg"
               alt="Tyler Moore"
@@ -146,15 +146,17 @@
     </main>
 
     <footer class="banner-footer">
-      <a href="#" class="logo-link">WebStudio</a>
-      <address class="address-text">
-        <p>695 Park Ave, New York, NY 10065,</p>
-        <p>United States</p>
-        <ul class="address-links">
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+12127724150">+1 212-772-4150</a></li>
-        </ul>
-      </address>
+      <section class="footer-container">
+        <a href="#" class="logo-link footer-item">WebStudio</a>
+        <address class="address-text">
+          <ul class="footer-item">
+            <li>695 Park Ave, New York, NY 10065,</li>
+            <li>United States</li>
+            <li class="address-links"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="address-links"><a href="tel:+12127724150">+1 212-772-4150</a></li>
+          </ul>
+        </address>
+      </section>
     </footer>
   </body>
 </html>
