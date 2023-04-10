@@ -321,6 +321,38 @@ body{
 /* ----------- */
 /* PORTFOLIO */
 
+.portfolio-container{
+    display: flex;
+    margin-top: 94px;
+    margin-bottom: 94px;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.portfolio-button{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%; 
+    
+}
+
+.portfolio-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.portfolio-card-item{
+    margin: 5px;
+
+}
+
 .portfolio-button button{
     background-color: #F5F4FA;
     border-radius: 4px;
@@ -332,6 +364,8 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     font-family: inherit;
+    width: 160%;
+    height: 120%;
 
 }
 

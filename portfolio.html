@@ -25,26 +25,26 @@
   <body class="list-style-none container">
     <header class="topmenu">
       <!-- Banner superior navegacion -->
-      <a href="./index.html" class="logo-link">WebStudio</a>
+      <a href="#" class="logo-link">WebStudio</a>
 
-      <nav class="text-basic-color">
+      <nav class="text-basic-color toplinks-container">
         <ul class="toplinks">
           <li><a href="./index.html" target="_self">Studio</a></li>
-          <li class="toplinks-current"><a href="#" target="_self">Portfolio</a></li>
+          <li  class="toplinks-current"><a href="#" target="_self">Portfolio</a></li>
           <li><a href="./contacts">Contacts</a></li>
         </ul>
       </nav>
 
-      <ul class="address-links">
-        <li><a href="Tel:+380961111111">+38 096 111 11 11</a></li>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      <ul class="address-toplinks">
+        <li class="address-links "><a href="Tel:+380961111111">+38 096 111 11 11</a></li>
+        <li class="address-links "><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
       </ul>
     </header>
 
     <main>
       <h1 hidden>Portfolio</h1>
       <!-- BOTONES FILTRO -->
-      <section>
+      <section class="portfolio-container">
         <ul class="portfolio-button">
           <li><button type="button">All</button></li>
           <li><button type="button">Web-sites</button></li>
@@ -53,8 +53,8 @@
           <li><button type="button">Marketing</button></li>
         </ul>
         <!-- TARJETAS  -->
-        <ul>
-          <li>
+        <ul class="portfolio-cards">
+          <li class="portfolio-card-item">
             <img
               src="./images/portfolio-duck.jpg"
               alt="Webpage layout"
@@ -63,7 +63,7 @@
             <h3 class="portfolio-item-title">Technoduck</h3>
             <p class="portfolio-item-filter">Web-site</p>
           </li>
-          <li>
+          <li class="portfolio-card-item">
             <img
               src="./images/portfolio-poster.jpg"
               alt="Basketball poster"
@@ -74,7 +74,7 @@
             </h3>
             <p class="portfolio-item-filter">Design</p>
           </li>
-          <li>
+          <li class="portfolio-card-item">
             <img
               src="./images/portfolio-seafood.jpg"
               alt="Logo of a restaurant"
@@ -83,7 +83,7 @@
             <h3 class="portfolio-item-title">Seafood Restaurant</h3>
             <p class="portfolio-item-filter">Apps</p>
           </li>
-          <li>
+          <li class="portfolio-card-item">
             <img
               src="./images/portfolio-p-prime.jpg"
               alt="Headphones"
@@ -92,7 +92,7 @@
             <h3 class="portfolio-item-title">Project Prime</h3>
             <p class="portfolio-item-filter">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-card-item">
             <img
               src="./images/portfolio-p-boxes.jpg"
               alt="Two boxes"
@@ -101,7 +101,7 @@
             <h3 class="portfolio-item-title">Project Boxes</h3>
             <p class="portfolio-item-filter">Apps</p>
           </li>
-          <li>
+          <li class="portfolio-card-item">
             <img
               src="./images/portfolio-inspiration.jpg"
               alt="Screen"
@@ -110,7 +110,7 @@
             <h3 class="portfolio-item-title">Inspiration has no Borders</h3>
             <p class="portfolio-item-filter">Web-site</p>
           </li>
-          <li>
+          <li class="portfolio-card-item">
             <img
               src="./images/portfolio-limited.jpg"
               alt="Open book"
@@ -119,7 +119,7 @@
             <h3 class="portfolio-item-title">Limited Edition</h3>
             <p class="portfolio-item-filter">Design</p>
           </li>
-          <li>
+          <li class="portfolio-card-item">
             <img
               src="./images/portfolio-lab.jpg"
               alt="A white label"
@@ -128,7 +128,7 @@
             <h3 class="portfolio-item-title">Project LAB</h3>
             <p class="portfolio-item-filter">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-card-item">
             <img
               src="./images/portfolio-growing.jpg"
               alt="Someone typing on laptop"
@@ -142,15 +142,17 @@
     </main>
 
     <footer class="banner-footer">
-      <a href="index.html" class="logo-link">WebStudio</a>
-      <address class="address-text">
-        <p>695 Park Ave, New York, NY 10065,</p>
-        <p>United States</p>
-        <ul class="address-links">
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+12127724150">+1 212-772-4150</a></li>
-        </ul>
-      </address>
+      <section class="footer-container">
+        <a href="#" class="logo-link footer-item">WebStudio</a>
+        <address class="address-text">
+          <ul class="footer-item">
+            <li>695 Park Ave, New York, NY 10065,</li>
+            <li>United States</li>
+            <li class="address-links"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="address-links"><a href="tel:+12127724150">+1 212-772-4150</a></li>
+          </ul>
+        </address>
+      </section>
     </footer>
   </body>
 </html>
