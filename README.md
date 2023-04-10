@@ -1,3 +1,3 @@
-# goit-markup-hw-03
+# goit-markup-hw-02
 #live page link
-https://verovh.github.io/goit-markup-hw-03/
+https://verovh.github.io/goit-markup-hw-02/
