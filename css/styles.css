@@ -6,8 +6,6 @@
     --descriptive-text:#757575;
 }
 
-/* COMENTARIO PARA CAMBIAR ARCHIVO Y PODERLO MERGE CON MAIN */
-
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -27,7 +25,7 @@ body{
 /* FLEXBOX */
 
 .container{
-    width: 1600px;
+    width: 1200px;
 }
 
 
@@ -61,7 +59,6 @@ body{
     display: flex;
     width: 30%;
     justify-content: center;
-
 }
 
 .toplinks{
@@ -113,8 +110,6 @@ body{
 .toplinks-current a:active{
     color: var(--highlighting-color);
 }
-
-
 
 .address-links a{
     text-decoration: none;
@@ -187,7 +182,6 @@ body{
     background-color: #188CE8;
 }
 
-
 /* MAIN */
 
 .main-titles{
@@ -205,7 +199,6 @@ body{
     margin-top: 94px;
     margin-bottom: 94px;
     justify-content: center;
-
 }
 
 .howwedoit-items-container{
@@ -236,7 +229,6 @@ body{
 
 .whatwedo{
     margin-bottom: 94px;;
-
 }
 
 .whatwedo-img{
@@ -281,7 +273,6 @@ body{
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
-    
 }
 
 .whoweare-career{
@@ -298,10 +289,8 @@ body{
 .footer-container{
     padding-top: 3%;
     padding-bottom: 3%;
-
     display: flex;
     flex-direction: column;
-
 }
 
 .footer-item{
@@ -339,8 +328,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-left: 25%;
-    margin-right: 25%; 
-    
+    margin-right: 25%;
 }
 
 .portfolio-cards{
@@ -352,7 +340,6 @@ body{
 
 .portfolio-card-item{
     margin: 5px;
-
 }
 
 .portfolio-button button{
@@ -368,7 +355,6 @@ body{
     font-family: inherit;
     width: 160%;
     height: 120%;
-
 }
 
 .portfolio-button button:focus{
